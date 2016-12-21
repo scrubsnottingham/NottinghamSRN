@@ -1,7 +1,10 @@
 # Site settings
-language:               ""
-title:                  "Site Title"
-description:            "Site description"
+language:               "en-GB"
+title:                  "Nottingham SRN"
+description: >
+  The SCRUBS research network (SRN) is a tool created by the SCRUBS Nottingham University Surgical Society
+  to create a research mentorship scheme, whereby surgeons can gain assistance with projects they are running, 
+  and students can gain valuable research experience.
 google-verification:    ""
 
 # Handling Reading
