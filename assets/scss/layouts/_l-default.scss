@@ -3,14 +3,18 @@
 // --------------------------------------------------
 
 header {
+  @include srnbg;
+
   &.drop {
     -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,05);
     -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
     box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+
+    margin-bottom: 1.5rem;
   }
 
   .top-bar {
-    @include srnbg;
+    background-color: transparent;
 
     ul {
       background-color: transparent;

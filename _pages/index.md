@@ -8,4 +8,4 @@ The SCRUBS research network (SRN) is a tool created by the SCRUBS Nottingham Uni
 
 We are supported by the Royal College of Surgeons (RCS), the East Midlands Surgical Academic Network (EMSAN) as well as other collaboratives and consultants from various University of Nottingham - affiliated hospitals. 
 
-All SCRUBS Members are eligible. If you do not have SCRUBS Membership but with to be involved, go to https://www.su.nottingham.ac.uk/healthcare/medsoc/clubsocs/scrubs/ and buy membership now!
+All SCRUBS Members are eligible. If you do not have SCRUBS Membership but with to be involved, go to [https://www.su.nottingham.ac.uk/healthcare/medsoc/clubsocs/scrubs/](https://www.su.nottingham.ac.uk/healthcare/medsoc/clubsocs/scrubs/) and buy membership now!
