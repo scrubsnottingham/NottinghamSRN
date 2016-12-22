@@ -1,6 +1,14 @@
 <footer>
-  <small><i>footer</i></small>
-  {% include components/nav-footer.html %}
+	<div class="row align-middle">
+		<div class="column small-4">
+  			{% include components/nav-footer-left.html %}
+  		</div>
+  		<div class="column small-4 align-center text-center">
+  			<span>&copy; Nottingham SCRUBS</span>
+  		</div>
+  		<div class="column small-4">
+  			{% include components/nav-footer-right.html %}
+  		</div>
 </footer>
 
 {% include foot.html %}

@@ -2,6 +2,15 @@
 // Layout default
 // --------------------------------------------------
 
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin: 0 0 $footer-height;
+}
+
 header {
   @include srnbg;
 
@@ -38,10 +47,20 @@ header {
 }
 
 footer {
-  @include grid-row;
-  background-color: $light-gray;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    max-height: $footer-height;
+    
+    @include srnbg;
 
-  nav {
-    @include grid-column;
-  }
+    &, a {
+      color: $light-gray;
+    }
+
+    .menu img {
+      max-height: $footer-height/2;
+    }
 }
