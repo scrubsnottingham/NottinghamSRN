@@ -3,11 +3,33 @@
 // --------------------------------------------------
 
 header {
-  @include grid-row;
-  background-color: $light-gray;
+  &.drop {
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,05);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+  }
 
-  nav {
-    @include grid-column;
+  .top-bar {
+    @include srnbg;
+
+    ul {
+      background-color: transparent;
+    }
+
+    @include grid-row;
+    position: relative;
+
+    .top-bar-title {
+      @include vertical-center;
+    }
+
+    img {
+      max-height: 2rem;
+    }
+
+    nav {
+      @include grid-column;
+    }
   }
 }
 

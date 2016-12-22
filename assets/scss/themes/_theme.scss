@@ -3,6 +3,5 @@
 // --------------------------------------------------
 
 body {
-	background-color: $srnblue;
-	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAH0lEQVQIW2NgYODjBWJWKOZgQOKwQDAKByLAgSTACQAp6QE8mK8aTgAAAABJRU5ErkJggg==);
+	@include srnbg;
 }
