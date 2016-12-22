@@ -3,7 +3,15 @@ layout: default
 ---
 
 <main id="content">
-<small><i>main</i></small>
-<h1>{{ page.title }}</h1>
-{{ content }}
+	<div class="row">
+		<div class="column">
+			<h1>{{ page.title }}</h1>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="column">
+			{{ content }}
+		</div>
+	</div>
 </main>
