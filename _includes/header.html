@@ -1,8 +1,13 @@
 {% include head.html %}
 
 <header class="drop">
-	<div class="top-bar">
-		<div class="top-bar-title">
+	<div class="title-bar" data-responsive-toggle="top-menu" data-hide-for="medium">
+		<div class="title-bar-title"><a href="/"><img src="/assets/img/srn-logo-white.svg" /></a></div>
+		<div class="title-bar-right"><button class="menu-icon" type="button" data-toggle="top-menu"></button> Menu</div>
+	</div>
+
+	<div class="top-bar" id="top-menu">
+		<div class="top-bar-left show-for-medium">
 			<a href="/"><img src="/assets/img/srn-logo-white.svg" /></a>
 		</div>
 		<div class="top-bar-right">

@@ -1,4 +1,4 @@
-<ul class="menu clearfix float-right">
+<ul class="menu vertical medium-horizontal clearfix float-right" data-dropdown-menu>
 	{% for item in site.data.nav-main %}
 		<li {% if item.url == page.url %}class="active"{% endif %}>
 			<a href="{{ item.url }}">{{ item.link }}</a>

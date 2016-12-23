@@ -11,6 +11,20 @@ body {
   margin: 0 0 $footer-height;
 }
 
+.no-js {
+  @include breakpoint(small only) {
+    .top-bar {
+      display: none;
+    }
+  }
+
+  @include breakpoint(medium) {
+    .title-bar {
+      display: none;
+    }
+  }
+}
+
 header {
   @include srnbg;
 
@@ -22,7 +36,7 @@ header {
     margin-bottom: 1.5rem;
   }
 
-  .top-bar {
+  .top-bar, .title-bar {
     background-color: transparent;
 
     ul {

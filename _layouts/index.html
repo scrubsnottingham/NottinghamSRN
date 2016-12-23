@@ -4,8 +4,16 @@ layout: compress
 
 {% include head.html %}
 
-<header class="drop index">
-	<div class="top-bar">
+<header class="drop">
+	<div class="title-bar" data-responsive-toggle="top-menu" data-hide-for="medium">
+		<div class="title-bar-title">&nbsp;</div>
+		<div class="title-bar-right"><button class="menu-icon" type="button" data-toggle="top-menu"></button> Menu</div>
+	</div>
+
+	<div class="top-bar" id="top-menu">
+		<div class="top-bar-left show-for-medium">
+			&nbsp;
+		</div>
 		<div class="top-bar-right">
 			{% include components/nav-menu.html %}
 		</div>
