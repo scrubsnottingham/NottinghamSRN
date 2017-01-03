@@ -7,6 +7,5 @@
   "dependencies": {
     "foundation-sites": "~6.3",
     "motion-ui": "~1.2"
-  },
-  "private": true
+  }
 }
