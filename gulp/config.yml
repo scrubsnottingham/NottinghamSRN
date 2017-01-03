@@ -36,7 +36,7 @@ javascript:
   src:
     # Libraries requried by Foundation
     - "assets/vendor/jquery/dist/jquery.js"
-    - "assets/vendor/what-input/what-input.js"
+    - "assets/vendor/what-input/dist/what-input.js"
 
     # Core Foundation files, all Foundation components need this!
     - "assets/vendor/foundation-sites/js/foundation.core.js"
@@ -62,6 +62,7 @@ javascript:
     # - "assets/vendor/foundation-sites/js/foundation.tabs.js"
     # - "assets/vendor/foundation-sites/js/foundation.toggler.js"
     # - "assets/vendor/foundation-sites/js/foundation.tooltip.js"
+    # - "bower_components/foundation-sites/js/foundation.zf.responsiveAccordionTabs.js"
     # - "assets/vendor/foundation-sites/js/foundation.util.box.js"
     # - "assets/vendor/foundation-sites/js/foundation.util.keyboard.js"
     - "assets/vendor/foundation-sites/js/foundation.util.mediaQuery.js"
