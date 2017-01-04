@@ -1,0 +1,28 @@
+---
+title: Group Projects
+layout: page
+---
+
+<p>Bellow is a list of current group projects</p>
+
+<section>
+	<div class="row small-up-1">
+		{% for item in site.projects %}
+			{% if item.type contains "group" or item.path contains "group" %}
+				<div class="column">
+					<div class="card">
+						<div class="card-divider">
+						    <h3>{{item.title}}</h3>
+						</div>
+						{% if item.header_img %}
+							<img src="{{item.header_img}}" />
+						{% endif %}
+						<div class="card-section">
+							{{item.content}}
+						</div>
+					</div>
+				</div>
+			{% endif %}
+		{% endfor %}
+	</div>
+</section>

@@ -10,7 +10,7 @@ google-verification:    ""
 # Handling Reading
 include:
   - ".htaccess"
-  - "_pages"
+  # - "_pages"
 
 exclude:
   - "/assets/"
@@ -41,6 +41,36 @@ incremental:      true
 # baseurl:        "" # does not include hostname
 
 # Outputting
-permalink:        "/blog/:year/:title/"
-paginate_path:    "/blog/page:num"
-paginate:         5
+permalink: pretty
+
+collections:
+  posts:
+    permalink:        "/blog/:year/:title/"
+    paginate_path:    "/blog/page:num"
+    paginate:         5
+  pages:
+    permalink: /:path/
+    output: true
+  projects:
+    permalink: projects/:path/
+    output: true
+
+defaults:
+  # Projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+
+  # Pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+
+
+compress_html:
+  ignore:
+    envs: [development]
