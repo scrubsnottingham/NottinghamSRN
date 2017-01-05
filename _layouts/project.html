@@ -10,7 +10,17 @@ layout: default
 	</div>
 
 	<div class="row">
+		
+	</div>
+
+	<div class="row">
 		<div class="column">
+			<div class="callout float-right">
+				<dl>
+					{% include components/project-info.html info=page %}
+				</dl>
+				<span class="float-right"><a class="button" href="{% link _pages/projects/signup.mdown %}">Sign Up!</a></span>
+			</div>
 			{{ content }}
 		</div>
 	</div>

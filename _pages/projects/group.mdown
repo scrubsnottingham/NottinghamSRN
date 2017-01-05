@@ -28,7 +28,7 @@ layout: page
 						{% endif %}
 						<div class="card-section">
 							<dl>
-								{% include components/project-info.html item=item %}
+								{% include components/project-info.html info=item %}
 								<dt>Description</dt>
 								<dd>
 									{{item.content | markdownify }}

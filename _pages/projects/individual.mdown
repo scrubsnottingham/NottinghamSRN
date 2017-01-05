@@ -20,7 +20,7 @@ layout: page
 							{% endif %}
 							<div class="card-section" data-equalizer-watch>
 								<dl>
-									{% include components/project-info.html item=item %}
+									{% include components/project-info.html info=item %}
 									<dt>Short Description</dt>
 									<dd>
 										{{item.content | split:"<!-- more -->" | first | markdownify | strip_html | truncatewords: 50 }}
