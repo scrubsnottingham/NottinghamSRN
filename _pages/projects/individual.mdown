@@ -20,16 +20,7 @@ layout: page
 							{% endif %}
 							<div class="card-section" data-equalizer-watch>
 								<dl>
-									<dt>Consultant/Project Manager(s)</dt>
-									<dd>{{item.supervisor|default:"Unkown"}}</dd>
-									<dt>Location</dt>
-									<dd>{{item.location|default:"Unkown"}}</ds>
-									<dt>Aviable to year groups</dt>
-									<dd>{{item.years|default:"Unkown"}}</ds>
-									<dt>Timeframe</dt>
-									<dd>{{item.timeframe|default:"Unkown"}}</ds>
-									<dt>Places available</dt>
-									<dd>{{item.location|default:"Unkown"}}</ds>
+									{% include components/project-info.html item=item %}
 									<dt>Short Description</dt>
 									<dd>
 										{{item.content | split:"<!-- more -->" | first | markdownify | strip_html | truncatewords: 50 }}

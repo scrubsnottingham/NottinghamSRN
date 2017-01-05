@@ -28,21 +28,12 @@ layout: page
 						{% endif %}
 						<div class="card-section">
 							<dl>
-									<dt>Consultant/Project Manager(s)</dt>
-									<dd>{{item.supervisor|default:"Unkown"}}</dd>
-									<dt>Location</dt>
-									<dd>{{item.location|default:"Unkown"}}</ds>
-									<dt>Aviable to year groups</dt>
-									<dd>{{item.years|default:"Unkown"}}</ds>
-									<dt>Timeframe</dt>
-									<dd>{{item.timeframe|default:"Unkown"}}</ds>
-									<dt>Places available</dt>
-									<dd>{{item.location|default:"Unkown"}}</ds>
-									<dt>Description</dt>
-									<dd>
-										{{item.content | markdownify }}
-									</dd>
-								</dl>
+								{% include components/project-info.html item=item %}
+								<dt>Description</dt>
+								<dd>
+									{{item.content | markdownify }}
+								</dd>
+							</dl>
 						</div>
 					</div>
 				</div>
