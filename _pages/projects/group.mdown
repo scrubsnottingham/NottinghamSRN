@@ -6,23 +6,47 @@ layout: page
 <p>Bellow is a list of current group projects</p>
 
 <section>
-	<div class="row small-up-1">
-		{% for item in site.projects %}
-			{% if item.type contains "group" or item.path contains "group" %}
+	{% assign specialisms = site.projects | where_exp: "item", "item.path contains 'group'" | group_by: "specialism" %}
+	{% for specialism in specialisms %}
+		<h2 id="{{specialism.name|default:"Other"|slugify}}">{{specialism.name|default:"Other"}}</h2>
+		<div class="row">
+			{% for item in specialism.items %}
 				<div class="column">
 					<div class="card">
 						<div class="card-divider">
-						    <h3>{{item.title}}</h3>
+							<div class="row">
+								<div class="column">
+						    		<h3>{{item.title}}</h3>
+								</div>
+								<div class="column shrink">
+									<a class="button" href="{% link _pages/projects/signup.mdown %}">Sign up!</a>
+								</div>
+							</div>
 						</div>
 						{% if item.header_img %}
 							<img src="{{item.header_img}}" />
 						{% endif %}
 						<div class="card-section">
-							{{item.content}}
+							<dl>
+									<dt>Consultant/Project Manager(s)</dt>
+									<dd>{{item.supervisor|default:"Unkown"}}</dd>
+									<dt>Location</dt>
+									<dd>{{item.location|default:"Unkown"}}</ds>
+									<dt>Aviable to year groups</dt>
+									<dd>{{item.years|default:"Unkown"}}</ds>
+									<dt>Timeframe</dt>
+									<dd>{{item.timeframe|default:"Unkown"}}</ds>
+									<dt>Places available</dt>
+									<dd>{{item.location|default:"Unkown"}}</ds>
+									<dt>Description</dt>
+									<dd>
+										{{item.content | markdownify }}
+									</dd>
+								</dl>
 						</div>
 					</div>
 				</div>
-			{% endif %}
-		{% endfor %}
-	</div>
+			{% endfor %}
+		</div>
+	{% endfor %}
 </section>

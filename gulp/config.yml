@@ -49,7 +49,7 @@ javascript:
     # - "assets/vendor/foundation-sites/js/foundation.drilldown.js"
     - "assets/vendor/foundation-sites/js/foundation.dropdown.js"
     # - "assets/vendor/foundation-sites/js/foundation.dropdownMenu.js"
-    # - "assets/vendor/foundation-sites/js/foundation.equalizer.js"
+    - "assets/vendor/foundation-sites/js/foundation.equalizer.js"
     # - "assets/vendor/foundation-sites/js/foundation.interchange.js"
     # - "assets/vendor/foundation-sites/js/foundation.magellan.js"
     # - "assets/vendor/foundation-sites/js/foundation.offcanvas.js"
@@ -99,6 +99,6 @@ watch:
   sass: "assets/scss/**/*.scss"
   pages:
     - "*.{md,html,yml,xml}"
-    - "{_data,_includes,_layouts,_pages,_posts,_projects}/**/*.{md,html,yml,xml}"
+    - "{_data,_includes,_layouts,_pages,_posts,_projects}/**/*.{md,mdown,html,yml,xml}"
     - "!_site/**/*.*"
     - "!assets/**/*.*"

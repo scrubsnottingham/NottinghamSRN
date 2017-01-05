@@ -1,19 +1,15 @@
 ---
-title: Lorem Project
+title: No idea Project
 type: individual
 specialism: Sample
 supervisor: Dr No
-location: City Hospital
+location:
 years: 3rd and above
 timeframe: Before easter
 places: 2
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-
-![](http://placehold.it/350x150)
-
-<!-- more -->
 
 Aenean faucibus venenatis lacus, sed porttitor odio hendrerit id. Donec nec lobortis odio. In blandit blandit diam id consectetur. Sed sit amet lobortis enim, vel elementum augue. Nam tempor lobortis porta. Vivamus tempus porta diam vitae pharetra. Nam feugiat hendrerit facilisis. Maecenas quis nunc gravida, mollis lorem at, condimentum quam. Curabitur urna risus, hendrerit ac eros sed, ultrices molestie est. Cras at placerat massa.
 

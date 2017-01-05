@@ -1,6 +1,5 @@
 ---
 title: Sample group project
-type: group
 categories: sample
 ---
 

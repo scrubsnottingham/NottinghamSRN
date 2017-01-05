@@ -4,11 +4,13 @@ layout: page
 ---
 
 <section>
-	<div class="row small-up-1 medium-up-2 large-up-3">
-		{% for item in site.projects %}
-			{% if item.type contains "individual" or item.path contains "individual" %}
+	{% assign specialisms = site.projects | where_exp: "item", "item.path contains 'individual'" | group_by: "specialism" %}
+	{% for specialism in specialisms %}
+		<h2 id="{{specialism.name|default:"Other"|slugify}}">{{specialism.name|default:"Other"}}</h2>
+		<div class="row small-up-1 medium-up-2 large-up-3" data-equalizer data-equalize-on="medium">
+			{% for item in specialism.items %}
 				<div class="column">
-					<a href="{{item.permalink}}">
+					<a href="{{item.url}}">
 						<div class="card">
 							<div class="card-divider">
 							    <h3>{{item.title}}</h3>
@@ -16,13 +18,28 @@ layout: page
 							{% if item.header_img %}
 								<img src="{{item.header_img}}" />
 							{% endif %}
-							<div class="card-section">
-								{{item.content}}
+							<div class="card-section" data-equalizer-watch>
+								<dl>
+									<dt>Consultant/Project Manager(s)</dt>
+									<dd>{{item.supervisor|default:"Unkown"}}</dd>
+									<dt>Location</dt>
+									<dd>{{item.location|default:"Unkown"}}</ds>
+									<dt>Aviable to year groups</dt>
+									<dd>{{item.years|default:"Unkown"}}</ds>
+									<dt>Timeframe</dt>
+									<dd>{{item.timeframe|default:"Unkown"}}</ds>
+									<dt>Places available</dt>
+									<dd>{{item.location|default:"Unkown"}}</ds>
+									<dt>Short Description</dt>
+									<dd>
+										{{item.content | split:"<!-- more -->" | first | markdownify | strip_html | truncatewords: 50 }}
+									</dd>
+								</dl>
 							</div>
 						</div>
 					</a>
 				</div>
-			{% endif %}
-		{% endfor %}
-	</div>
+			{% endfor %}
+		</div>
+	{% endfor %}
 </section>
