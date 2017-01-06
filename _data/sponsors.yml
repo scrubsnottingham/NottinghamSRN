@@ -1,0 +1,14 @@
+- name: RCS
+  image: none
+
+- name: University of Nottingham Students' Union
+  image: uonsu-logo.png
+
+- name: STARSurg
+  image: starsurg-logo.jpg
+
+- name: EMSAN
+  image: emsan-logo.jpg
+
+- name: BUCA
+  image: buca-logo.png

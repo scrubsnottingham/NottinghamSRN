@@ -1,12 +1,12 @@
 ---
-title: Group Projects
+title: Projects from Collaboratives
 layout: page
 ---
 
-<p>Bellow is a list of current group projects</p>
+These are projects from research collaboratives, working nationwide. These will often involve many students working at many hospital sites, with all the research gathered into a paper. The requirements can vary significantly, please see specific project details for more information.
 
 <section>
-	{% assign specialisms = site.projects | where_exp: "item", "item.path contains 'group'" | group_by: "specialism" %}
+	{% assign specialisms = site.projects | where_exp: "item", "item.path contains 'collaborative'" | group_by: "specialism" %}
 	{% for specialism in specialisms %}
 		<h2 id="{{specialism.name|default:"Other"|slugify}}">{{specialism.name|default:"Other"}}</h2>
 		<div class="row">
@@ -19,7 +19,7 @@ layout: page
 						    		<h3>{{item.title}}</h3>
 								</div>
 								<div class="column shrink">
-									<a class="button" href="{% link _pages/projects/signup.mdown %}">Sign up!</a>
+									<a class="button" href="{% link _pages/projects/signup.md %}">Sign up!</a>
 								</div>
 							</div>
 						</div>

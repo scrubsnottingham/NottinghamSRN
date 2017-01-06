@@ -12,3 +12,12 @@ header .menu {
 		background: none;
 	}
 }
+
+.thumbnail.profile img {
+  max-height: 100px;
+  max-width: 100px;
+}
+
+.sponsors .column {
+	padding-bottom: 1rem;
+}

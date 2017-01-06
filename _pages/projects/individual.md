@@ -3,6 +3,8 @@ title: Individual Research Projects
 layout: page
 ---
 
+These are projects given to us by individual consultants/departments from various hospitals. They will usually have one or two students for each project (although this can vary, please see individual project details).
+
 <section>
 	{% assign specialisms = site.projects | where_exp: "item", "item.path contains 'individual'" | group_by: "specialism" %}
 	{% for specialism in specialisms %}

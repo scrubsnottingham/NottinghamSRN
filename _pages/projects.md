@@ -5,29 +5,29 @@ title: Project Types
 
 We run two main types of project. Please select which one you are interested in below:
 
-<div class="row small-up-1 medium-up-2">
+<div class="row small-up-1 medium-up-2" data-equalizer data-equalize-on="medium">
 	<div class="column">
-		<a href="/projects/group/">
-			<div class="card">
+		<a href="{% link _pages/projects/collaborative.md %}">
+			<div class="card" data-equalizer-watch>
 				<div class="card-divider">
-				    <h3>Group Projects</h3>
+				    <h3>Collaborative Projects</h3>
 				</div>
 				<img src="/assets/img/project-group.jpg" />
 				<div class="card-section">
-					Group projects are designed for multiple people
+					These are projects from research collaboratives, working nationwide.
 				</div>
 			</div>
 		</a>
 	</div>
 	<div class="column">
-		<a href="/projects/individual/">
-			<div class="card">
+		<a href="{% link _pages/projects/individual.md %}">
+			<div class="card" data-equalizer-watch>
 				<div class="card-divider">
 				    <h3>Individual Projects</h3>
 				</div>
 				<img src="/assets/img/project-individual.jpg" />
 				<div class="card-section">
-					Indiviual projects are designed for people to do by themselves
+					These are projects given to us by individual consultants/departments from various hospitals.
 				</div>
 			</div>
 		</a>
