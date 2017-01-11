@@ -22,7 +22,7 @@ install:
   - bundle install
 
 script:
-  - npm build
+  - npm run build
 
 deploy:
   provider: script
