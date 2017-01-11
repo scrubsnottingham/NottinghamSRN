@@ -4,6 +4,11 @@
 if [[ $TRAVIS_PULL_REQUEST == "false" ]]
   then
 
+  pwd
+  ls
+  cd $TRAVIS_BUILD_DIR
+  ls .travis
+
   # Setup ssh agent
   eval "$(ssh-agent -s)" #start the ssh agent
   chmod 600 .travis/deploy.key # this key should have push access
