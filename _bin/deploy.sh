@@ -4,10 +4,10 @@
 if [[ $TRAVIS_PULL_REQUEST == "false" ]]
   then
 
-  pwd
-  ls
-  cd $TRAVIS_BUILD_DIR
-  ls .travis
+  # Get SSH key
+  mkdir .travis
+  openssl aes-256-cbc -K $encrypted_3fce5a723986_key -iv $encrypted_3fce5a723986_iv \
+    -in deploy.key.enc -out .travis/deploy.key -d
 
   # Setup ssh agent
   eval "$(ssh-agent -s)" #start the ssh agent
