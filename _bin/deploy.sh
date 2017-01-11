@@ -6,8 +6,8 @@ if [[ $TRAVIS_PULL_REQUEST == "false" ]]
 
   # Setup ssh agent
   eval "$(ssh-agent -s)" #start the ssh agent
-  chmod 600 .travis/deploy_key.pem # this key should have push access
-  ssh-add .travis/deploy_key.pem
+  chmod 600 .travis/deploy.key # this key should have push access
+  ssh-add .travis/deploy.key
 
   # cleanup
   rm -rf gh-pages
