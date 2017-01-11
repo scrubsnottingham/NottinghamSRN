@@ -39,4 +39,4 @@ branches:
 env:
   global:
     - RESET=true
-    - GH_REF=git@github.com:NottinghamSRN/Main-Website.git
+    - GH_REF=git@github.com:NottinghamSRN/NottinghamSRN.git
