@@ -9,11 +9,13 @@ SRN was the developed by Paul Thomas (then SCRUBS President), Matt Green (then S
 
 We hope you enjoy it.
 
-## Current SRN Co Chairs
+## Current SRN Committee
 
 <div class="row align-spaced">
-	{% include components/chair-profile.html img="https://placehold.it/300" name="Paul Thomas" year="5th Year" %}
-	{% include components/chair-profile.html img="https://placehold.it/300" name="Nicole Asemota" year="5th Year" %}
+	{% include components/chair-profile.html img="https://placehold.it/300" name="Paul Thomas" job="Co-Chair" %}
+	{% include components/chair-profile.html img="https://placehold.it/300" name="Nicole Asemota" job="Co-Chair" %}
+	{% include components/chair-profile.html img="https://placehold.it/300" name="Henry Bergman" job="SCRUBS President" %}
+	{% include components/chair-profile.html img="https://placehold.it/300" name="Fady Anis" job="Vice President" %}
 </div>
 
 <br />
@@ -21,7 +23,7 @@ We hope you enjoy it.
 ## Consultant Lead and SCRUBS Patron
 
 <div class="row align-center">
-	{% include components/chair-profile.html img="https://placehold.it/300" name="Mr J Lund" year="Royal Derby Hospital" %}
+	{% include components/chair-profile.html img="https://placehold.it/300" name="Mr J Lund" job="Royal Derby Hospital" %}
 </div>
 
 <br />
@@ -29,6 +31,6 @@ We hope you enjoy it.
 ## Past SRN Co-Chairs
 
 <div class="row align-spaced">
-	{% include components/chair-profile.html img="https://placehold.it/300" name="Mr X" year="5th Year" %}
-	{% include components/chair-profile.html img="https://placehold.it/300" name="Mrs Y" year="5th Year" %}
+	{% include components/chair-profile.html img="https://placehold.it/300" name="Mr X" job="Co-Chair" %}
+	{% include components/chair-profile.html img="https://placehold.it/300" name="Mrs Y" job="Co-Chair" %}
 </div>
