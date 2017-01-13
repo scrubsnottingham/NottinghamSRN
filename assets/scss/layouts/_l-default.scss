@@ -66,7 +66,10 @@ footer {
     bottom: 0;
     width: 100%;
     height: auto;
-    max-height: $footer-height;
+
+    @include breakpoint("medium") {
+      max-height: $footer-height;
+    }
     
     @include srnbg;
 
