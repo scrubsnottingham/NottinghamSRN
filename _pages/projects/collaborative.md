@@ -19,7 +19,7 @@ These are projects from research collaboratives, working nationwide. These will 
 						    		<h3>{{item.title}}</h3>
 								</div>
 								<div class="column shrink">
-									<a class="button" href="{% link _pages/projects/signup.md %}">Sign up!</a>
+									<a class="button" href="mailto:{{item.email}}">Contact Organiser</a>
 								</div>
 							</div>
 						</div>
