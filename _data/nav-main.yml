@@ -1,11 +1,14 @@
 - link: Home
   url: /
 
-# - link: Blog
-#   url: /blog/
-
 - link: About Us
   url: /about/
 
 - link: Projects
   url: /projects/
+
+- link: Useful Resources
+  url: /useful-resources/
+
+- link: Sponsors
+  url: /sponsors/
