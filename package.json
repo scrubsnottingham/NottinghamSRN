@@ -1,7 +1,7 @@
 {
-  "name": "jekyll-foundation",
-  "version": "0.4.0",
-  "description": "Starting point for a Jekyll site that uses Zurb Foundation's Sass.",
+  "name": "NottinghamSRN",
+  "version": "0.1.0",
+  "description": "A site to list the available projects in the Nottingham SCRUBS Research Network",
   "license": "MIT",
   "main": "gulpfile.js",
   "dependencies": {},
@@ -43,9 +43,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/core77/jekyll-foundation.git"
+    "url": "https://github.com/NottinghamSRN/NottinghamSRN.git"
   },
   "bugs": {
-    "url": "https://github.com/core77/jekyll-foundation/issues"
+    "url": "https://github.com/NottinghamSRN/NottinghamSRN/issues"
   }
 }

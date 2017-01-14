@@ -21,7 +21,7 @@ To use this starter project, you'll need the following things installed on your 
 [Bower](http://bower.io/) - `npm install -g bower`
 
 #### Optional
-[Make](https://www.gnu.org/software/make) (used with rsync for deploying)  
+[Make](https://www.gnu.org/software/make)  
 
 ### Project install
 
