@@ -11,7 +11,7 @@ We hope you enjoy it.
 
 ## Current SRN Committee
 
-<div class="row align-spaced">
+<div class="row align-spaced small-up-1 large-up-2">
 	{% include components/chair-profile.html img="https://placehold.it/300" name="Paul Thomas" job="Co-Chair" %}
 	{% include components/chair-profile.html img="https://placehold.it/300" name="Nicole Asemota" job="Co-Chair" %}
 	{% include components/chair-profile.html img="https://placehold.it/300" name="Henry Bergman" job="SCRUBS President" %}
@@ -20,17 +20,20 @@ We hope you enjoy it.
 
 <br />
 
-## Consultant Lead and SCRUBS Patron
+## Advisory Board
 
-<div class="row align-center">
-	{% include components/chair-profile.html img="https://placehold.it/300" name="Mr J Lund" job="Royal Derby Hospital" %}
+<div class="row align-spaced small-up-1 large-up-2">
+	{% include components/chair-profile.html img="https://placehold.it/300" name="Mr J Lund" job="Royal Derby Hospital <br/> Derby Lead" %}
+	{% include components/chair-profile.html img="https://placehold.it/300" name="Professor J Thornton" job="Obstetrics and Gynaecology  <br/> Nottingham City Lead" %}
 </div>
 
 <br />
 
+<!-- Remove the comment tags to enable in the future
 ## Past SRN Co-Chairs
 
-<div class="row align-spaced">
+<div class="row align-spaced small-up-1 large-up-2">
 	{% include components/chair-profile.html img="https://placehold.it/300" name="Mr X" job="Co-Chair" %}
 	{% include components/chair-profile.html img="https://placehold.it/300" name="Mrs Y" job="Co-Chair" %}
-</div>
+</div> 
+-->

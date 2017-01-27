@@ -1,4 +1,4 @@
-<div class="small-12 column hide-for-large">
+<div class="small-12 column shrink">
 	<div class="media-object align-middle">
 		<div class="media-object-section">
 			<div class="thumbnail profile">
@@ -7,21 +7,7 @@
 		</div>
 
 		<div class="media-object-section main-section">
-			<h4>{{include.name}} <small>{{include.job}}</small></h4>
-		</div>
-	</div>
-</div>
-
-<div class="small-12 column shrink show-for-large">
-	<div class="media-object align-middle">
-		<div class="media-object-section">
-			<div class="thumbnail profile">
-				<img src="{{include.img}}" alt="{{include.name}}" />
-			</div>
-		</div>
-
-		<div class="media-object-section">
-			<h4>{{include.name}} <small>{{include.job}}</small></h4>
+			<h4>{{include.name}} {% if include.job %}<br /><small>{{include.job}}</small>{% endif %}</h4>
 		</div>
 	</div>
 </div>
