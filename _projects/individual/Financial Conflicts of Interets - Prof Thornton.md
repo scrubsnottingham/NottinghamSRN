@@ -9,8 +9,6 @@ timeframe: Nil
 places: 1-2
 ---
 
-
-
 ![](/assets/img/city hospital.jpg)
 
 
