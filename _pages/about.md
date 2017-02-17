@@ -13,7 +13,7 @@ We hope you enjoy it.
 
 <div class="row align-spaced small-up-1 large-up-2">
 	{% include components/chair-profile.html img="https://placehold.it/300" name="Paul Thomas" job="Co-Chair" %}
-	{% include components/chair-profile.html img="NottinghamSRN/assets/img/Nikki Asemota.jpg" name="Nicole Asemota" job="Co-Chair" %}
+	{% include components/chair-profile.html img="/assets/img/Nikki Asemota.jpg" name="Nicole Asemota" job="Co-Chair" %}
 	{% include components/chair-profile.html img="https://placehold.it/300" name="Henry Bergman" job="SCRUBS President" %}
 	{% include components/chair-profile.html img="https://placehold.it/300" name="Fady Anis" job="Vice President" %}
 </div>
@@ -24,7 +24,7 @@ We hope you enjoy it.
 
 <div class="row align-spaced small-up-1 large-up-2">
 	{% include components/chair-profile.html img="https://placehold.it/300" name="Mr J Lund" job="Royal Derby Hospital <br/> Derby Lead and SCRUBS Patron" %}
-	{% include components/chair-profile.html img="NottinghamSRN/assets/img/jim5.TIF" name="Professor J Thornton" job="Obstetrics and Gynaecology  <br/> Nottingham City Lead" %}
+	{% include components/chair-profile.html img="/assets/img/jim5.TIF" name="Professor J Thornton" job="Obstetrics and Gynaecology  <br/> Nottingham City Lead" %}
 </div>
 
 <br />
