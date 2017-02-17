@@ -11,7 +11,7 @@ places: 2
 
 
 
-![](http://placehold.it/350x150)
+![](/assets/img/city hospital.jpg)
 
 <!-- more -->
 
