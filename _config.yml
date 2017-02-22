@@ -28,6 +28,7 @@ exclude:
   - "README.md"
   - "rev-manifest.json"
   - "/.travis/"
+  - "/tmp/"
 
 # Plugins
 gems:             ["jekyll-sitemap", "jekyll-paginate"]

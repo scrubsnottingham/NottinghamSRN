@@ -21,9 +21,12 @@ install:
   - bower install
   - gem install bundler
   - bundle install
+  - curl -L -o _bin/htmltest https://github.com/wjdp/htmltest/releases/download/v0.4.0/htmltest-linux
+  - chmod +x _bin/htmltest
 
 script:
   - npm run build
+  - _bin/htmltest
 
 deploy:
   provider: script

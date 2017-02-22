@@ -46,6 +46,10 @@ assets/vendor/
 
 # Ruby
 Gemfile.lock
+.bundle/
 
 # Composer
 composer.lock
+
+# Temporary file
+tmp/

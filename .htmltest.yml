@@ -1,0 +1,3 @@
+DirectoryPath: "_site"
+EnforceHTTPS: true
+CacheExpires: "6h"
