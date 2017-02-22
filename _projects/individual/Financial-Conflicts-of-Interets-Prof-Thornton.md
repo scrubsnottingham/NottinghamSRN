@@ -9,7 +9,7 @@ timeframe: Nil
 places: 1-2
 ---
 
-![Nottingham University Hopsitials, City Hospital Campus](/assets/img/city hospital.jpg)
+![Nottingham University Hopsitials, City Hospital Campus](/assets/img/city-hospital.jpg)
 
 
 Reassess conflicts of interests in literature concerning Menopausal Hormonal Therapy.
