@@ -11,7 +11,7 @@ places: 2
 
 
 
-![Nottingham University Hopsitials, City Hospital Campus](/assets/img/city hospital.jpg)
+![Nottingham University Hopsitials, City Hospital Campus](/assets/img/city-hospital.jpg)
 
 <!-- more -->
 
