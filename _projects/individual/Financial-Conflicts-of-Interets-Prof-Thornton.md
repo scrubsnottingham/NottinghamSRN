@@ -4,7 +4,7 @@ type: individual
 specialism: Obstetrics and Gynaecology
 supervisor: Professor Thornton (Lead Consultant, Supervisor TBC)
 location: City Hospital
-years: 4th (Completed Obs + Gynae Placement) and 5th Year
+years: 4th (Completed Obs + Gynae) and 5th Year
 timeframe: Nil
 places: 1-2
 ---
