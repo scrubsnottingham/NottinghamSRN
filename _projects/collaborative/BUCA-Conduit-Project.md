@@ -1,7 +1,7 @@
 ---
 title: "Coronary Artery Bypass Grafts: Current Status in the UK"
 email: researchnetwork@bucardiology.org.uk
-type:collaborative
+type: collaborative
 specialism: BUCA (British Undergraduate Cardiovascular Association)
 supervisor: BUCA
 location: City Hospital - Trent Cardiac Centre
