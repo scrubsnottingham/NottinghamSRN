@@ -1,5 +1,5 @@
 ---
-title: "Survey of Medical Students' Attitudes to Being Experimental "guinea pigs" in Research Projects (specifically randomised trials) to Evaluate New Teaching Methods"
+title: "Survey of Medical Students' Attitudes to Being Experimental \"guinea pigs\" in Research Projects (specifically randomised trials) to Evaluate New Teaching Methods"
 type: individual
 specialism: Medical Education
 supervisor: Professor Thornton
