@@ -1,5 +1,5 @@
 ---
-title: Studies of Undisclosed Financial Conflicts of Interests Among Medical Authors of Review Articles about Menopausal Hormone Therapy
+title: "Studies of Undisclosed Financial Conflicts of Interests Among Medical Authors of Review Articles about Menopausal Hormone Therapy"
 type: individual
 specialism: Obstetrics and Gynaecology
 supervisor: Professor Thornton (Lead Consultant, Supervisor TBC)
