@@ -41,6 +41,18 @@ header {
 
     ul {
       background-color: transparent;
+
+      &.menu {
+        li a {
+          padding-left: 0.5rem;
+          padding-right: 0.5rem;
+
+          @include breakpoint(large) {
+            padding-left: 0.7rem;
+            padding-right: 0.7rem;
+          }
+        }
+      }
     }
 
     @include grid-row;
