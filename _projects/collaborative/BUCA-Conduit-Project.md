@@ -1,6 +1,6 @@
 ---
 title: "Coronary Artery Bypass Grafts: Current Status in the UK"
-email: researchnetwork@bucardiology.org.uk
+email: 
 type: collaborative
 specialism: BUCA (British Undergraduate Cardiovascular Association)
 supervisor: BUCA
