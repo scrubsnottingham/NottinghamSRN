@@ -10,5 +10,5 @@ We are supported by the Royal College of Surgeons (RCS), the East Midlands Surgi
 
 All SCRUBS Members are eligible. If you do not have SCRUBS Membership but with to be involved, go to [our UoNSU page](https://www.su.nottingham.ac.uk/healthcare/medsoc/clubsocs/scrubs/) and buy membership now!
 
-If you are a SCRUBS Member and would like to join SRN please email: [scrubssrn@gmail.com](mailto:scrubssrn@gmail.com?subject=SRN Sign Up) with subject ‘SRN Sign Up’, and an email containing:
+If you are a SCRUBS Member and would like to join SRN please email: [nottinghamsrn@gmail.com](mailto:nottinghamsrn@gmail.com?subject=SRN Sign Up) with subject ‘SRN Sign Up’, and an email containing:
 Full Name, University Username (mzy….), Year Group, Placement Locations (For CP1 and above).
