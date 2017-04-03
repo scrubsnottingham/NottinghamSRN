@@ -1,5 +1,5 @@
 ---
-title: About Us
+title: Useful Resources
 ---
 # EXTERNAL EVENTS
 
