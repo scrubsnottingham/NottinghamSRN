@@ -1,5 +1,5 @@
 ---
-title: "Impact of Incidental pN2 Disease on Survival Following Curative Resection of Non-Small Cell Lung Cancer in cN0 and cN1 Disease"
+title: "ASSIGNED - Impact of Incidental pN2 Disease on Survival Following Curative Resection of Non-Small Cell Lung Cancer in cN0 and cN1 Disease"
 type: individual
 specialism: Thoracic Surgery
 supervisor: Mr Fiyaz Chowdhury
