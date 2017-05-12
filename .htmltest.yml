@@ -1,3 +1,5 @@
 DirectoryPath: "_site"
 EnforceHTTPS: true
 CacheExpires: "6h"
+IgnoreURLs:
+- "https://www.su.nottingham.ac.uk/healthcare/medsoc/clubsocs/scrubs/"
