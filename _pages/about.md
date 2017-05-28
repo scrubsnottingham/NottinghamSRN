@@ -15,7 +15,7 @@ We hope you enjoy it.
 	{% include components/chair-profile.html img="https://placehold.it/300" name="Paul Thomas" job="Co-Chair" %}
 	{% include components/chair-profile.html img="/assets/img/Nikki-Asemota.jpg" name="Nicole Asemota" job="Co-Chair" %}
 	{% include components/chair-profile.html img="/assets/img/Henry-SRN-pic.jpg" name="Henry Bergman" job="SCRUBS President" %}
-	{% include components/chair-profile.html img="https://placehold.it/300" name="Fady Anis" job="Vice President" %}
+	{% include components/chair-profile.html img="/assets/img/Fady SRN Pic.jpg" name="Fady Anis" job="Vice President" %}
 </div>
 
 <br />
